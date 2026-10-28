@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Ara Chile Beauty: cosmética coreana en Chile. Bloqueadores, sérums, cremas y mascarillas K-Beauty con atención personalizada por WhatsApp.">
+<title>Ara Chile Beauty</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<a class="skip" href="#favoritos">Ir al catálogo</a>
+<header class="top">
+  <div class="g">
+    <a class="logo" href="#inicio" aria-label="Ara Chile Beauty, inicio"><b>ara<i>.</i></b><span>Chile Beauty</span></a>
+    <nav class="navlinks" aria-label="Secciones"><a href="#favoritos">Catálogo</a><a href="#test">Test de piel</a><a href="#combos">Combos</a><a href="#pedir">Cómo pedir</a><a href="#comunidad">Comunidad</a><a href="#nosotros">Quiénes somos</a></nav>
+    <a class="btn fx pill-wa" data-wa="Hola Ara! Quiero hacer una consulta." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+  </div>
+</header>
+
+<!-- HOME -->
+<main class="view" id="v-home">
+  <section class="hero" id="inicio">
+    <div class="g">
+      <div>
+        <span class="eyebrow">K-Beauty en Chile</span>
+        <h1 style="margin-top:10px">Tu piel, pero en su versión <em>más bacán</em>. 🇰🇷</h1>
+        <p class="lead">Fórmulas coreanas reales para resultados reales. Explora el catálogo y enamórate.</p>
+        <div class="ctas"><a class="btn fx" href="#test">Hacer test de piel</a><a class="btn line" href="#favoritos">Ver catálogo</a></div>
+        <div class="facts"><span>Atención 1 a 1</span><span>Pago por transferencia</span><span>Entrega coordinada</span></div>
+      </div>
+      <div class="stage" aria-hidden="true">
+        <div class="sun"></div><div class="blob"></div>
+        <div class="mark"><svg class="ko" viewBox="15 15 1769 982" role="img" aria-label="Ara en coreano"><path d="M288 97C142 97 35 228 35 436C35 646 142 777 288 777C433 777 540 646 540 436C540 228 433 97 288 97ZM288 244C346 244 385 305 385 436C385 569 346 630 288 630C229 630 191 569 191 436C191 305 229 244 288 244ZM616 37V975H778V511H904V379H778V37ZM1478 35V977H1639V512H1764V380H1639V35ZM933 111V239H1209V363H934V764H1015C1170 764 1301 759 1440 734L1425 605C1314 624 1210 630 1094 632V489H1369V111Z"/></svg></div>
+        <img class="hero-ph" src="img/hero-mascarillas.webp" alt="">
+        <span class="route">Seúl <i>→</i> Santiago</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="g sec" id="favoritos">
+    <div class="sec-head"><div><span class="eyebrow">Vitrina</span><h2>Recién llegados y favoritos</h2></div><p>Llegaron productos nuevos de Corea. Filtra por lo que tu piel necesita y toca uno para ver su ficha.</p></div>
+    <div class="chips" id="chips" role="group" aria-label="Filtrar por necesidad"></div>
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="g sec" aria-label="Test de piel">
+    <div class="qbanner">
+      <div style="display:grid;gap:12px">
+        <span class="eyebrow" style="color:var(--sol)">¿No sabes por dónde partir?</span>
+        <h2>Descubre tu rutina coreana en 1 minuto</h2>
+        <p>Responde 4 preguntas y te muestro qué productos van con tu piel. Luego me lo mandas por WhatsApp y lo afinamos juntas.</p>
+        <div class="meta"><span>4 preguntas</span><span>Gratis</span><span>Resultado al instante</span></div>
+      </div>
+      <div class="qcta"><img class="cat" src="img/gato-feliz.webp" alt="Gatita de Ara con mascarilla, feliz" width="421" height="520"><a class="btn fx" href="#test">Empezar el test</a></div>
+    </div>
+  </section>
+
+  <section class="g sec" id="combos">
+    <div class="sec-head"><div><span class="eyebrow">Combos aprobados</span><h2>Duplas que se entienden</h2></div><p>Dos productos que trabajan juntos en tu rutina.</p></div>
+    <div class="combos" id="combosList"></div>
+  </section>
+
+  <section class="g sec" id="pedir">
+    <div class="pedir-head"><div class="sec-head" style="margin-bottom:0"><div><span class="eyebrow">Cómo pedir</span><h2>Sin carrito, sin formularios</h2></div><p>Compras conversando, con alguien que te ayuda a elegir.</p></div><img class="cat-shop" src="img/gato-compras.webp" alt="Gatita de Ara con una bolsa de compras" width="431" height="520" loading="lazy"></div>
+    <ol class="how">
+      <li><span class="n">1</span><div><strong>Elige y toca "Pedir por WhatsApp"</strong><span>Se abre el chat con tu mensaje listo para enviar.</span></div></li>
+      <li><span class="n">2</span><div><strong>Confirmamos stock y te recomiendo</strong><span>Si tienes dudas sobre tu tipo de piel, las vemos juntas.</span></div></li>
+      <li><span class="n">3</span><div><strong>Transfieres y coordinamos la entrega</strong><span>Acordamos día y forma de entrega según lo que te acomode.</span></div></li>
+    </ol>
+  </section>
+
+  <section class="g sec" id="comunidad">
+    <div class="sec-head"><div><span class="eyebrow">Comunidad Ara</span><h2>Aprende antes de comprar</h2></div><p>Tips de skincare explicados simple.</p></div>
+    <div class="posts" id="postsList"></div>
+  </section>
+
+</main>
+
+<!-- PRODUCT -->
+<main class="view g" id="v-product" hidden></main>
+<!-- ARTICLE -->
+<main class="view g" id="v-article" hidden></main>
+<!-- TEST -->
+<main class="view g" id="v-test" hidden></main>
+<!-- QUIÉNES SOMOS -->
+<main class="view g" id="v-about" hidden>
+  <div class="about">
+    <a class="back" href="#inicio">← Volver al inicio</a>
+    <span class="eyebrow">Quiénes somos · Desde noviembre 2024</span>
+    <div class="about-hero">
+    <img class="about-ph" src="img/gabriela.webp" alt="Gabriela, creadora de Ara Chile Beauty" width="640" height="800">
+    <div class="about-intro">
+    <h1>Hola, soy <em>Gabriela</em>.</h1>
+    <p class="about-lead">Emprendedora y estudiante de marketing digital. Siempre me gustó el skincare, pero con las marcas europeas más conocidas no veía resultados. Un día conocí el skincare coreano y me cambió la vida.</p>
+    <p class="about-text">Así nació <b>Ara Chile Beauty</b>, en noviembre de 2024, con una idea simple: traer skincare coreano para que más gente de mi círculo lo conociera.</p>
+    <p class="about-text">Mi primer producto coreano fue la <a href="#producto-skin1004-ampoule">ampolla de centella de SKIN1004</a>, la de 100 ml con centella y niacinamida. Me cambió la piel de 0 a 1000.</p>
+    <p class="about-text">Hoy es una tienda pequeña de cosmética coreana en Chile. Elijo cada producto y te ayudo a armar tu rutina por WhatsApp, una persona a la vez.</p>
+    </div>
+    </div>
+
+    <div class="about-honest">
+      <h2>Lo que sí soy (y lo que no)</h2>
+      <p>No soy dermatóloga, pero sí tengo bastante conocimiento de skincare. Te recomiendo productos según tu tipo de piel y lo que buscas. Si tienes una condición de la piel, lo ideal es que la veas con un dermatólogo.</p>
+    </div>
+
+    <div class="about-values">
+      <div><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.5 7.4L3 20.5l1.6-5.3A8.5 8.5 0 1 1 21 11.5z"/></svg></span><h2>Atención 1 a 1</h2><p>Nada de bots ni respuestas automáticas. Me escribes, me cuentas cómo es tu piel y te recomiendo lo que de verdad te sirve.</p></div>
+      <div><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></span><h2>Ingredientes claros</h2><p>Cada producto tiene su ficha con para qué sirve, cómo se usa y para qué tipo de piel es. Sin promesas mágicas.</p></div>
+      <div><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/></svg></span><h2>Calidad y confianza</h2><p>Quiero que compres tranquila, con la seguridad de que tus productos son de calidad.</p></div>
+      <div><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7H4v12a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1z"/><path d="M8 7V5a4 4 0 0 1 8 0v2"/></svg></span><h2>Compra simple</h2><p>Sin carrito ni formularios: pagas por transferencia y coordinamos la entrega según lo que te acomode.</p></div>
+    </div>
+
+
+    <div class="about-cta">
+      <h2>¿Conversamos?</h2>
+      <p>Escríbeme por WhatsApp o Instagram y armamos tu rutina.</p>
+      <div class="ctas2"><a class="btn fx" data-wa="Hola Ara! Vi tu página y quiero que me ayudes con mi rutina." target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a><a class="btn line" href="#favoritos">Ver catálogo</a></div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="g">
+    <a class="logo" href="#inicio"><b>ara<i>.</i></b><span style="color:#CFC3C9">Chile Beauty</span></a>
+    <p>Cosmética coreana elegida contigo. Pedidos y reservas por WhatsApp o Instagram; pago por transferencia y entrega coordinada.</p>
+    <div class="links"><a href="#nosotros">Quiénes somos</a><a data-wa="Hola Ara!" target="_blank" rel="noopener noreferrer">WhatsApp</a><a id="igLink" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></div>
+  </div>
+</footer>
+
+<nav class="tabbar" aria-label="Navegación principal">
+  <div class="in">
+    <a href="#inicio" data-tab="inicio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>Inicio</a>
+    <a href="#favoritos" data-tab="favoritos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="2"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2"/></svg>Catálogo</a>
+    <a href="#test" data-tab="test"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.2 5.3L20 9l-4.4 3.8L17 18.5 12 15.6 7 18.5l1.4-5.7L4 9l5.8-.7z"/></svg>Test</a>
+    <a href="#comunidad" data-tab="comunidad"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h11a3 3 0 0 1 3 3v12H7a3 3 0 0 1-3-3z"/><path d="M8 9h6M8 13h6"/></svg>Blog</a>
+    <a class="wa" data-wa="Hola Ara! Quiero hacer una consulta." target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.5 7.4L3 20.5l1.6-5.3A8.5 8.5 0 1 1 21 11.5z"/></svg>Escríbeme</a>
+  </div>
+</nav>
+<div class="buybar" id="buybar" hidden></div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

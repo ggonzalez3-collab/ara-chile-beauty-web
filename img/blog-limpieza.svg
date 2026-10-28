@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="#FFD100"/>
+<circle cx="320" cy="90" r="56" fill="#FFE36B"/><circle cx="70" cy="320" r="44" fill="#FFE36B"/>
+<g stroke="#1C1318" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+<rect x="92" y="150" width="96" height="170" rx="22" fill="#FEF9F0"/><rect x="118" y="112" width="44" height="38" rx="6" fill="#FF8A65"/><path d="M140 112 V 86 H 176" fill="none"/>
+<path d="M112 230 h56" fill="none"/>
+<rect x="222" y="170" width="92" height="150" rx="40" fill="#FFFFFF"/><rect x="246" y="136" width="44" height="34" rx="8" fill="#FCE4EE"/>
+<path d="M248 245 h40" fill="none"/>
+</g>
+<g fill="#FFFFFF" stroke="#1C1318" stroke-width="4"><circle cx="300" cy="118" r="12"/><circle cx="322" cy="100" r="8"/><circle cx="282" cy="96" r="7"/></g>
+<text x="140" y="290" font-family="Arial,sans-serif" font-weight="700" font-size="40" text-anchor="middle" fill="#1C1318">1</text>
+<text x="268" y="290" font-family="Arial,sans-serif" font-weight="700" font-size="40" text-anchor="middle" fill="#1C1318">2</text>
+</svg>
