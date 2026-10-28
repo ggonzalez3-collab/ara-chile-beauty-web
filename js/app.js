@@ -37,7 +37,7 @@ const PRODUCTOS = [
     ingredientes:[["Centella pura de Madagascar","Calma y cuida la piel mientras trabaja la luminosidad."],["Niacinamida","Ayuda a emparejar el tono y dar luminosidad."],["Cápsulas iluminadoras","Se deshacen al aplicarlas y ayudan a dar un tono más uniforme."]],
     uso:["Después del tónico, aplica unas gotas en el rostro.","Presiona suavemente con las palmas hasta que se absorba.","Sella con crema y, de día, termina con bloqueador."],
     ideal:["Tono disparejo","Piel apagada","Piel sensible"] },
-  { id:"skin1004-sunserum", marca:"SKIN1004", nombre:"Hyalu-Cica Water-Fit Sun Serum SPF50+ 50 ml", tipo:"Bloqueador solar", precio:18990, badge:"Nuevo",
+  { id:"skin1004-sunserum", marca:"SKIN1004", nombre:"Hyalu-Cica Water-Fit Sun Serum SPF50+ 50 ml", tipo:"Bloqueador solar", precio:18990, badge:"Última unidad",
     hook:"Bloqueador acuoso con centella y ácido hialurónico.",
     tagline:"Bloqueador en sérum, ultraliviano y fresco, con centella asiática y ácido hialurónico. No deja rastro blanco.",
     pk:"tube", colores:["#E4F4EF","#1F6F63","#1F6F63"], fondo:"#FFFFFF", imagen:"img/skin1004-sunserum.webp",
