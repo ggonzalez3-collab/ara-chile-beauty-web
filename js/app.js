@@ -64,7 +64,7 @@ const PRODUCTOS = [
   { id:"yukazan-patch", marca:"YUKAZAN", nombre:"Acne Healing Patch Day · 30 parches", tipo:"Parches para granitos", precio:4990, badge:"SOS granitos",
     hook:"Parches invisibles para usar de día sobre granitos.",
     tagline:"Parches delgados que cubren el granito, lo protegen de tus manos y ayudan a que se vea menos durante el día.",
-    pk:"sachet", colores:["#F7CDBF","#E8473C","#3A2A2A"], fondo:"#FFFFFF", imagen:"img/yukazan-patch.webp",
+    pk:"sachet", colores:["#F3EC8A","#E8473C","#1F2A5C"], fondo:"#FFFFFF", imagen:"img/yukazan-patch.webp",
     beneficios:["Protegen el granito de la suciedad y las manos","Ayudan a absorber lo que sale del granito","Ayudan a reducir el enrojecimiento y las marcas","Transpirables, resistentes al agua e hipoalergénicos"],
     ingredientes:[["Hidrocoloide","Material que absorbe y protege la zona mientras sana."],["Aceite de árbol de té (Australia)","Ayuda a calmar la zona y cuidar la piel con tendencia a granitos."]],
     uso:["Limpia y seca bien la zona.","Pega el parche sobre el granito, sin cremas debajo.","Cámbialo cuando se vea blanco o después de unas horas."],
